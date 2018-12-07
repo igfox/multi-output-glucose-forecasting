@@ -91,7 +91,7 @@ class GlucoseDataset(Dataset):
                 self.lens.append(lens)
         else:
             for idx in range(len(self.data)):
-                if idx % 10 == 0:
+                if idx % 1000 == 0:
                     print('{}/{}'.format(idx, len(self.data)))
                 x_pad, y_pad, y_real_pad, lens = self.prepare_output(idx)
                 self.x_out.append(x_pad)
