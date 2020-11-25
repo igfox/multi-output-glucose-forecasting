@@ -11,7 +11,7 @@ from tensorboardX import SummaryWriter
 from tqdm import tqdm
 import joblib
 
-from forecast_code.lib.training import model as forecast_model
+import model as forecast_model
 
 
 class ExperimentTrainer:
