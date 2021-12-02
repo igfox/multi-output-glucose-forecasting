@@ -8,3 +8,5 @@ By downloading and using these data you agree to comply with the following:
    - You will not redistribute or resell the data;
    - Data ownership remains with UM
    - Requirements survive changes in ownership of entity
+
+Update: this repo was originally intented to serve as the starting point for a full and clean version of the code I used (since my research code was...researchy). Since it's been years and I never got around to actually doing it here's the full research version in all of it's messiness: https://gitlab.eecs.umich.edu/mld3/glucose_forecasting
